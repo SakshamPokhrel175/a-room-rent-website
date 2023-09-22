@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Room Booking</title>
+    <link rel="stylesheet" href="book.css">
+
+</head>
+<body>
+	<h1>Room Booking Form</h1>
+	<form action="booking.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required><br><br>
+		<label for="checkin">Check-in Date:</label>
+		<input type="date" id="checkin" name="checkin" required><br><br>
+		<label for="checkout">Check-out Date:</label>
+		<input type="date" id="checkout" name="checkout" required><br><br>
+		<label for="room-type">Room Type:</label>
+		<select id="room-type" name="room-type" required>
+			<option value="">-- Select Room Type --</option>
+			<option value="single">Single Room</option>
+			<option value="double">Double Room</option>
+			<option value="suite">Suite</option>
+		</select><br><br>
+		<label for="comments">Comments:</label><br>
+		<textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+		<input type="submit" value="Submit">
+	</form>
+    
+</body>
+</html>
+
