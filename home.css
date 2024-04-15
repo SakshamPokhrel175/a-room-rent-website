@@ -1,0 +1,145 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header, nav, main, .ok, footer {
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	padding: 2%;
+}
+
+.maison {
+    flex: 0 1 calc(30% - 20px);
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.maison:hover {
+    transform: translateY(-5px);
+}
+
+.maison img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.maison h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.maison p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maison ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maison ul li {
+    margin-bottom: 10px;
+}
+
+.maison a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.maison a:hover {
+    background-color: #555;
+}
+
+.ok {
+    text-align: center;
+}
+
+.ok button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ok button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+	
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
